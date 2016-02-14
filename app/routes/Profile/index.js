@@ -1,3 +1,5 @@
+"use strict";
+
 module.exports = {
   path: 'profile',
   getComponent(location, cb) {

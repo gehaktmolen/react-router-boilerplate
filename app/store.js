@@ -2,8 +2,7 @@
 
 let Dispatcher = require('./dispatcher');
 let EventEmitter = require('events').EventEmitter;
-
-let api =  require('./api');
+let Api =  require('./api');
 
 const ACTION_TYPES = require('./action-types');
 const CHANGE_EVENT = 'change';
@@ -32,12 +31,12 @@ let Store = Object.assign({}, EventEmitter.prototype, {
 Dispatcher.register(function(action){
   switch(action.actionType) {
     case ACTION_TYPES.SWITCH_LANGUAGE:
-      _content = api.getContent(action.language);
+      _content = Api.getContent(action.language);
       console.log('changing language! ' + action.language);
       Store.emitChange();
       break;
     case ACTION_TYPES.INIT_APP:
-      _content = api.getContent();
+      _content = Api.getContent();
       Store.emitChange();
       break;
     default:

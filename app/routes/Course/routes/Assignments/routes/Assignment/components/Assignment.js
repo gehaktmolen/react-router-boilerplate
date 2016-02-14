@@ -1,3 +1,5 @@
+"use strict";
+
 /*globals COURSES:true */
 import React from 'react'
 

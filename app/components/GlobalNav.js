@@ -1,3 +1,5 @@
+"use strict";
+
 import React from 'react'
 import { Link } from 'react-router'
 import Actions from '../actions'

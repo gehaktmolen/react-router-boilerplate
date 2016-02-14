@@ -1,3 +1,5 @@
+"use strict";
+
 module.exports = {
   path: 'messages',
   getComponent(location, cb) {

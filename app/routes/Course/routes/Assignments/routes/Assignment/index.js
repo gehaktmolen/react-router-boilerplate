@@ -1,3 +1,5 @@
+"use strict";
+
 module.exports = {
   path: ':assignmentId',
   getComponent(location, cb) {
