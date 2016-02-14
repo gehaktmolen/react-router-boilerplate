@@ -1,6 +1,6 @@
 {
   "name": "OrangeGames",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "OrangeGames React Router boilerplate based on React Router example repo.",
   "files": [
     "*.md",
@@ -13,9 +13,11 @@
   ],
   "main": "lib/index",
   "jsnext:main": "es6/index",
-  "repository": "reactjs/react-router",
-  "homepage": "https://reactjs.org/react-router/",
-  "bugs": "https://github.com/reactjs/react-router/issues",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/gehaktmolen/react-router-boilerplate.git"
+  },
+  "homepage": "http://github.com/gehaktmolen/react-router-boilerplate.git#readme",
   "scripts": {
     "build": "npm run build-cjs && npm run build-es6",
     "build-cjs": "rimraf lib && babel ./modules -d lib --ignore '__tests__'",
@@ -32,10 +34,12 @@
   "authors": [
     "Ryan Florence",
     "Michael Jackson",
-    "Arthur Hulsman"
+    "Arthur Hulsman",
+    "Lena Barinova"
   ],
   "license": "MIT",
   "dependencies": {
+    "flux": "^2.1.1",
     "history": "^2.0.0",
     "invariant": "^2.0.0",
     "warning": "^2.0.0"
@@ -88,6 +92,7 @@
     "routing",
     "route",
     "routes",
-    "router"
+    "router",
+    "flux"
   ]
 }
