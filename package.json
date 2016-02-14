@@ -1,7 +1,7 @@
 {
-  "name": "react-router",
+  "name": "OrangeGames",
   "version": "2.0.0",
-  "description": "A complete routing library for React.js",
+  "description": "OrangeGames React Router boilerplate based on React Router example repo.",
   "files": [
     "*.md",
     "docs",
@@ -22,8 +22,8 @@
     "build-es6": "rimraf es6 && babel ./modules -d es6 --blacklist=es6.modules --ignore '__tests__'",
     "build-umd": "NODE_ENV=production webpack modules/index.js umd/ReactRouter.js",
     "build-min": "NODE_ENV=production webpack -p modules/index.js umd/ReactRouter.min.js",
-    "lint": "eslint modules examples",
-    "start": "node examples/server.js",
+    "lint": "eslint modules app",
+    "start": "node app/server.js",
     "test": "npm run lint && npm run test-node && npm run test-browser",
     "test-browser": "karma start",
     "test-node": "mocha --compilers js:babel-core/register tests.node.js",
@@ -31,7 +31,8 @@
   },
   "authors": [
     "Ryan Florence",
-    "Michael Jackson"
+    "Michael Jackson",
+    "Arthur Hulsman"
   ],
   "license": "MIT",
   "dependencies": {
