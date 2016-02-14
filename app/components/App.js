@@ -35,7 +35,7 @@ class App extends React.Component {
       <div>
         <GlobalNav data={this.state.content.page.menu} onChange={this.change}/>
         <div style={{ padding: 20 }}>
-          {this.props.children || <Dashboard courses={COURSES} />}
+          {this.props.children || <Dashboard data={this.state.content.page.home} onChange={this.change} courses={COURSES} />}
         </div>
       </div>
     )

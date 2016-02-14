@@ -39,11 +39,7 @@ class GlobalNav extends React.Component {
   switchLanguage(key, event) {
     Actions.switchLanguage(key);
   }
-
-  pushMessage(key, event){
-    Actions.pushMessage(key);
-  }
-
+  
   render() {
     const { user } = this.props
 

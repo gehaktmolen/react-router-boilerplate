@@ -8,7 +8,7 @@
         "grades": "Grades",
         "messages": "Messages"
       },
-      "home": {
+      "dashboard": {
         "header": "Getting started with React and Flux",
         "text": "This is a very basic example how to create multilingual React website using Flux. You can take this code as a base and build on it, replacing current content retrieval from JSON with calls to APIs, extending functionality, etc.",
         "goUp": "Go up"
@@ -29,7 +29,7 @@
         "grades": "Grades",
         "messages": "Messages"
       },
-      "home": {
+      "dashboard": {
         "header": "Kaip pradėti darbą su React ir Flux",
         "text": "Tai labai paprastas pavyzdys, kaip sukurti daugiakalbę interneto svetainę naudojant React ir Flux. Galite remtis šiuo kodu kaip pagrindu, pakeičiant turinio gavimą iš JSON į kreipinius į API, pridedant naują funkcionalumą ir t.t.",
         "goUp": "Į viršų"
@@ -50,7 +50,7 @@
         "grades": "Grades",
         "messages": "Messages"
       },
-      "home": {
+      "dashboard": {
         "header": "Начиная работать с React и Flux",
         "text": "Это очень простой пример, как создать многоязычный сайт, используя React и Flux. Вы можете взять этот код в качестве базы и построить на нем свою систему, заменив загрузку содержачия из JSON вызовами API, расширить функциональность и т.д.",
         "goUp": "Наверх"
