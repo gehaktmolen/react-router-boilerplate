@@ -1,15 +1,20 @@
+"use strict";
+
 //import content from './data/content.json'
 
 let Api = {
 
 	getContent(language = 'en') {
+		
 		var content = [
 						  {
 						    "lang": "en",
 						    "page": {
 						      "menu": {
 						        "home": "Home",
-						        "about": "About"
+						        "calendar": "Calendar",
+						        "grades": "Grades",
+						        "messages": "Messages"
 						      },
 						      "home": {
 						        "header": "Getting started with React and Flux",
@@ -28,7 +33,9 @@ let Api = {
 						    "page": {
 						      "menu": {
 						        "home": "Pradžia",
-						        "about": "Apie"
+						        "calendar": "Apie",
+						        "grades": "Grades",
+						        "messages": "Messages"
 						      },
 						      "home": {
 						        "header": "Kaip pradėti darbą su React ir Flux",
@@ -46,8 +53,10 @@ let Api = {
 						    "lang": "ru",
 						    "page": {
 						      "menu": {
-						        "home": "Главная",
-						        "about": "О проекте"
+						        "home": "Pradžia",
+						        "calendar": "О проекте",
+						        "grades": "Grades",
+						        "messages": "Messages"
 						      },
 						      "home": {
 						        "header": "Начиная работать с React и Flux",

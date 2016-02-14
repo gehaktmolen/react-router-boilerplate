@@ -1,6 +1,9 @@
-import Dispatcher from './dispatcher'
-import EventEmitter from 'events'
-import api from '.api'
+"use strict";
+
+let Dispatcher = require('./dispatcher');
+let EventEmitter = require('events').EventEmitter;
+
+let api =  require('./api');
 
 const ACTION_TYPES = require('./action-types');
 const CHANGE_EVENT = 'change';
@@ -30,11 +33,9 @@ Dispatcher.register(function(action){
   switch(action.actionType) {
     case ACTION_TYPES.SWITCH_LANGUAGE:
       _content = api.getContent(action.language);
+      console.log('changing language! ' + action.language);
       Store.emitChange();
       break;
-    case ACTION_TYPES.PUSH_MESSAGE:
-      alert(action.message);
-      Store.emitChange();
     case ACTION_TYPES.INIT_APP:
       _content = api.getContent();
       Store.emitChange();

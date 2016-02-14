@@ -10,12 +10,6 @@ let Actions = {
       language: language
     });
   },
-  pushMessage(message){
-    Dispatcher.dispatch({
-      actionType: ACTION_TYPES.PUSH_MESSAGE,
-      message: message
-    });
-  },
   initApp() {
     Dispatcher.dispatch({
       actionType: ACTION_TYPES.INIT_APP

@@ -4,7 +4,9 @@
     "page": {
       "menu": {
         "home": "Home",
-        "about": "About"
+        "calendar": "Calendar",
+        "grades": "Grades",
+        "messages": "Messages"
       },
       "home": {
         "header": "Getting started with React and Flux",
@@ -23,7 +25,9 @@
     "page": {
       "menu": {
         "home": "Pradžia",
-        "about": "Apie"
+        "calendar": "Apie",
+        "grades": "Grades",
+        "messages": "Messages"
       },
       "home": {
         "header": "Kaip pradėti darbą su React ir Flux",
@@ -34,15 +38,17 @@
         "header": "Apie šį sprendimą",
         "text": "Ši svetainė yra sukurta naudojant React versiją 1.14. Flux biblioteka yra naudojama kaip šablonas reaguojant į duomenų pokyčius. Šis sprendimas padaryti kuo paprastesniu, naudojant gryną Bootstrap, be papildomų stilių ar JavaScript kodo. Testai parašyti Mocha, naudojant Chai ir Sinon. Ten, kur tai naudinga - naudojama ES2015 sintaksė. Gulp naudojamas užduočių automatizavimui. React kodas yra transformuojamas naudojant Babel 6 versiją, Babel taip pat yra naudojamas ES2015 kodo transformacijai. Šiom dviejom transformacijom įvykdyti naudojami Babel presets.",
         "goUp": "Į viršų"
-      }
+      },
     }
   },
   {
     "lang": "ru",
     "page": {
       "menu": {
-        "home": "Главная",
-        "about": "О проекте"
+        "home": "Pradžia",
+        "calendar": "О проекте",
+        "grades": "Grades",
+        "messages": "Messages"
       },
       "home": {
         "header": "Начиная работать с React и Flux",
